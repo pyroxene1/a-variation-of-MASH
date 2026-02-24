@@ -1,16 +1,17 @@
-using UnityEngine;
-using UnityEngine.UI;
-using UnityEngine.InputSystem;
 using System.Collections.Generic;
+using TMPro;
+using UnityEngine;
+using UnityEngine.InputSystem;
+using UnityEngine.UI;
 
 public class GameManager : MonoBehaviour
 {
     [Header("UI References")]
-    public Text soldiersInHelicopterText;
-    public Text soldiersRescuedText;
-    public Text gameOverText;
-    public Text youWinText;
-    public Text instructionsText;
+    public TMP_Text soldiersInHelicopterText;
+    public TMP_Text soldiersRescuedText;
+    public TMP_Text gameOverText;
+    public TMP_Text youWinText;
+    public TMP_Text instructionsText;
 
     [Header("Game Settings")]
     public int maxSoldiersInHelicopter = 3;
