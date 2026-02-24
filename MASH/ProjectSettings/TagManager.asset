@@ -4,9 +4,9 @@
 TagManager:
   serializedVersion: 3
   tags:
-  - soldiers
-  - tree
-  - hospital
+  - Soldier
+  - Hospital
+  - Tree
   layers:
   - Default
   - TransparentFX
